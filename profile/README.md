@@ -24,6 +24,7 @@ Claude Code 기반의 스킬과 도구를 설계·벤치마킹·반복 개선하
 |---|---|
 | [**skills**](https://github.com/oh-my-younggi-ai/skills) | 내가 만든 Claude Code 스킬 모음 (scenario-dev, iterative-refactor, design-doc, bmad-quick-dev) |
 | [**cs-interview**](https://github.com/oh-my-younggi-ai/cs-interview) | CS 지식 위키 구축 + 그 위키 기준 AI 모의면접 (cs-wiki + cs-interviewer 한 쌍) |
+| [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 엔지니어링 규칙 + Claude Code 설정 템플릿 (Codex 등으로 확장 가능) |
 
 ## 개선 이력 예시 — cs-wiki
 

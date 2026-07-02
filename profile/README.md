@@ -1,29 +1,20 @@
-<div align="center">
-<!-- Header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141413,10:2B2A28,30:D97757,75:2B2A28,100:141413&height=100&section=header&text=&fontSize=0" width="100%"/>
-<br><br>
-
-
-
-
-<!-- Title Typing Effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Riot&pause=1000&color=D97757&size=40&center=true&vCenter=true&random=false&width=435&lines=Oh!+my+Younggi+Ai" alt="Typing SVG" /></a>
-<br>
-<div align="center">  
-</div>
-</div>
-
-</details>
-<br><br>
-<div align="center">
-
-
-
 <!--
   이 파일은 GitHub Organization 프로필 랜딩이다.
   배포 위치: oh-my-younggi-ai/.github 레포의  profile/README.md
   (즉 이 dot-github/ 폴더가 `.github` 레포가 된다)
 -->
+
+<div align="center">
+
+<!-- Header banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141413,10:2B2A28,30:D97757,75:2B2A28,100:141413&height=100&section=header&text=&fontSize=0" width="100%"/>
+
+<br><br>
+
+<!-- Title Typing Effect -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Riot&pause=1000&color=D97757&size=40&center=true&vCenter=true&random=false&width=435&lines=Oh!+my+Younggi+Ai" alt="Typing SVG" /></a>
+
+</div>
 
 > AI 를 **도구**로 쓰되, 문제를 푸는 건 결국 개발자다.
 > 그래서 나는 만든 것을 항상 **측정하고, 실패를 분석하고, 다시 측정한다.**
@@ -54,6 +45,10 @@ Claude Code 기반의 스킬과 도구를 설계·벤치마킹·반복 개선하
 <!-- 회차가 늘면 이 표에 행을 추가한다. 원본: skills/cs-interview/benchmarks/ -->
 
 <br>
+
+<div align="center">
+
 <!-- Footer banner -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:141413,10:2B2A28,30:D97757,75:2B2A28,100:141413&height=40&section=footer&text=&fontSize=0" width="100%"/>
+
 </div>

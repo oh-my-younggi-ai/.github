@@ -37,15 +37,16 @@ Claude Code 기반의 스킬과 도구를 설계·벤치마킹·반복 개선하
 |---|---|
 | [**skills**](https://github.com/oh-my-younggi-ai/skills) | 내가 만든 Claude Code 스킬 모음 (scenario-dev, iterative-refactor, design-doc, bmad-quick-dev) |
 | [**cs-interview**](https://github.com/oh-my-younggi-ai/cs-interview) | CS 지식 위키 구축 + 그 위키 기준 AI 모의면접 (cs-wiki + cs-interviewer 한 쌍) |
-| [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 엔지니어링 규칙 + Claude Code 설정 템플릿 (Codex 등으로 확장 가능) |
+| [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 규칙·컨벤션 + 커스텀 서브에이전트 6개 + Claude Code 설정 템플릿 (Codex 등으로 확장 가능) |
 
-## 개선 이력 예시 — cs-wiki
+## 개선 이력 (측정된 것만)
 
-| 회차 | pass rate | baseline | Δ | 비고 |
-|---|---|---|---|---|
-| iter-01 (2026-06-17) | **1.00** (15/15) | 0.53 | **+0.47** | 구조 + 규율 도입 |
+| 스킬 | 회차 | pass rate | baseline | Δ | 토큰 |
+|---|---|---|---|---|---|
+| cs-wiki | iter-01 | **1.00** (15/15) | 0.53 | **+0.47** | 1.46× |
+| scenario-dev | iter-01 | **1.00** (20/20) | 0.50 | **+0.50** | 1.65× |
 
-<!-- 회차가 늘면 이 표에 행을 추가한다. 원본: skills/cs-interview/benchmarks/ -->
+<sub>전문 기록은 각 repo 의 `benchmarks/`, 방법론은 <a href="https://github.com/oh-my-younggi-ai/skills/blob/main/BENCHMARKING.md">skills/BENCHMARKING.md</a>. 회차가 늘면 행 추가.</sub>
 
 <br>
 

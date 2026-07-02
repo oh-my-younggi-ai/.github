@@ -9,13 +9,16 @@
 <!-- Header banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141413,10:2B2A28,30:D97757,75:2B2A28,100:141413&height=100&section=header&text=&fontSize=0" width="100%"/>
 
-<br><br>
+
 
 <!-- Title Typing Effect -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Riot&pause=1000&color=D97757&size=40&center=true&vCenter=true&random=false&width=435&lines=Oh!+my+Younggi+Ai" alt="Typing SVG" /></a>
 
+<br><br>
+<div></div>
 </div>
 
+---
 > AI 를 **도구**로 쓰되, 문제를 푸는 건 결국 개발자다.
 > 그래서 나는 만든 것을 항상 **측정하고, 실패를 분석하고, 다시 측정한다.**
 

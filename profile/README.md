@@ -45,12 +45,17 @@ Claude Code 로 **소프트웨어를 만드는 방식**과, 그 위에서 나온
 
 ## 개선 이력 · *측정된 것만*
 
-| 스킬 | 회차 | pass rate | baseline | Δ | 토큰 |
-|---|---|---|---|---|---|
-| cs-wiki | iter-01 | **1.00** (15/15) | 0.53 | **+0.47** | 1.46× |
-| scenario-dev | iter-01 | **1.00** (20/20) | 0.50 | **+0.50** | 1.65× |
+| 스킬 | 회차 | 측정 결과 |
+|---|---|---|
+| cs-wiki | iter-02 (2026-07) | 결정론 채점 v2 — 회귀 검사 **16/16 green** · 점검 recall **1.00** (3/3) · 갭 추천 정밀도 **1.00** · 대필 0건 |
+| cs-wiki | iter-01 (2026-06) | pass rate **1.00** (15/15) vs baseline 0.53 · **Δ +0.47** · 1.46× tokens |
+| scenario-dev | iter-01 (2026-06) | pass rate **1.00** (20/20) vs baseline 0.50 · **Δ +0.50** · 1.65× tokens |
 
-<sub>전문 기록은 각 repo 의 <code>benchmarks/</code>, 방법론은 <a href="https://github.com/oh-my-younggi-ai/skills/blob/main/BENCHMARKING.md">skills/BENCHMARKING.md</a>. 회차가 늘면 행 추가.</sub>
+실제 운영 지식베이스도 같은 도구로 측정한다 — 위키 건강검진에서 역링크 완전성 **0.70 → 0.91**,
+고아 페이지 **12% → 0%** (측정 → 수정 → 재측정 루프).
+
+<sub>iter-02 부터 LLM judge 없는 <b>결정론적 3층 채점</b>(회귀 바닥 / 진행 지표 / 확장 eval)으로 전환.
+전문 기록은 각 repo 의 <code>benchmarks/</code>, 방법론은 <a href="https://github.com/oh-my-younggi-ai/skills/blob/main/BENCHMARKING.md">skills/BENCHMARKING.md</a>. 회차가 늘면 행 추가.</sub>
 
 <br>
 

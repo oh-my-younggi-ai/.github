@@ -36,6 +36,12 @@ Claude Code 로 **소프트웨어를 만드는 방식**과, 그 위에서 나온
 |---|---|
 | [**cs-interview**](https://github.com/oh-my-younggi-ai/cs-interview) | CS 지식 위키 구축 + 그 위키 기준 AI 모의면접 (cs-wiki + cs-interviewer 한 쌍) |
 
+## 챌린지 · *실측으로 겨룬 것*
+
+| 프로젝트 | 설명 |
+|---|---|
+| [**2026-SCPC-Harness-Engineering-AI-Challenge**](https://github.com/oh-my-younggi-ai/2026-SCPC-Harness-Engineering-AI-Challenge) | 삼성 SCPC 2026 AI 트랙 — 순수 Python 규칙 기반 AI Agent Harness. 리더보드 **0.0882 → 0.8496**, 35 iterations · 15회 제출 전부 단일가설 실험으로 기록 |
+
 ## 워크플로우 · *더 잘 만들기 위한 것*
 
 | 프로젝트 | 설명 |

@@ -42,6 +42,8 @@ Claude Code 로 **소프트웨어를 만드는 방식**과, 그 위에서 나온
 |---|---|
 | [**2026-SCPC-Harness-Engineering-AI-Challenge**](https://github.com/oh-my-younggi-ai/2026-SCPC-Harness-Engineering-AI-Challenge) | 삼성 SCPC 2026 AI 트랙 — 순수 Python 규칙 기반 AI Agent Harness. 리더보드 **0.0882 → 0.8496**, 35 iterations · 15회 제출 전부 단일가설 실험으로 기록 |
 
+<sub>회고: <a href="https://velog.io/@giyoul/1%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">AI한테 해커톤을 시켜봤다 1탄</a> · <a href="https://velog.io/@giyoul/2%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">2탄</a> · 에세이: <a href="https://velog.io/@giyoul/%ED%95%98%EB%84%A4%EC%8A%A4%EB%8A%94-%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80-%EC%8C%93%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94%EA%B0%80">하네스는 어디까지 쌓아야 하는가</a></sub>
+
 ## 워크플로우 · *더 잘 만들기 위한 것*
 
 | 프로젝트 | 설명 |

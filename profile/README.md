@@ -48,13 +48,14 @@ Claude Code 로 **소프트웨어를 만드는 방식**과, 그 위에서 나온
 
 | 프로젝트 | 설명 |
 |---|---|
-| [**skills**](https://github.com/oh-my-younggi-ai/skills) | Claude Code 스킬 모음 — scenario-dev, iterative-refactor, design-doc, bmad-quick-dev |
+| [**skills**](https://github.com/oh-my-younggi-ai/skills) | Claude Code 스킬 모음 — product-planning, scenario-dev, iterative-refactor, design-doc, bmad-quick-dev, blog-voice |
 | [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 규칙·컨벤션 + 커스텀 서브에이전트 6개 + Claude Code 설정 템플릿 |
 
 ## 개선 이력 · *측정된 것만*
 
 | 스킬 | 회차 | 측정 결과 |
 |---|---|---|
+| product-planning | iter-01 (2026-07) | 결정론 채점 — floor **18/18 green** · 빈 상태 커버리지 **0.32 → 0.78** · Phase 도메인 근거율 **0 → 1.00** · 미해결 표기 0.67 → **0건** · 1.63× tokens |
 | cs-wiki | iter-02 (2026-07) | 결정론 채점 v2 — 회귀 검사 **16/16 green** · 점검 recall **1.00** (3/3) · 갭 추천 정밀도 **1.00** · 대필 0건 |
 | cs-wiki | iter-01 (2026-06) | pass rate **1.00** (15/15) vs baseline 0.53 · **Δ +0.47** · 1.46× tokens |
 | scenario-dev | iter-01 (2026-06) | pass rate **1.00** (20/20) vs baseline 0.50 · **Δ +0.50** · 1.65× tokens |

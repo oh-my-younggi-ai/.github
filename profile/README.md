@@ -44,27 +44,27 @@
 
 | 프로젝트 | 설명 |
 |---|---|
-| [**2026-SCPC-Harness-Engineering-AI-Challenge**](https://github.com/oh-my-younggi-ai/2026-SCPC-Harness-Engineering-AI-Challenge) | 삼성 SCPC 2026 AI 트랙 - 순수 Python 규칙 기반 AI Agent Harness. 리더보드 **0.0882 → 0.8496**, 35 iterations · 15회 제출 전부 단일가설 실험으로 기록 |
+| [**2026-SCPC-Harness-Engineering-AI-Challenge**](https://github.com/oh-my-younggi-ai/2026-SCPC-Harness-Engineering-AI-Challenge) | 삼성 SCPC 2026 AI 트랙 - 순수 Python 규칙 기반 AI Agent Harness. 리더보드 **0.0882 → 0.8496**, 35 iterations, 15회 제출 전부 단일가설 실험으로 기록 |
 
-<sub>회고: <a href="https://velog.io/@giyoul/1%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">AI한테 해커톤을 시켜봤다 1탄</a> · <a href="https://velog.io/@giyoul/2%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">2탄</a> · 에세이: <a href="https://velog.io/@giyoul/%ED%95%98%EB%84%A4%EC%8A%A4%EB%8A%94-%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80-%EC%8C%93%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94%EA%B0%80">하네스는 어디까지 쌓아야 하는가</a></sub>
+<sub>회고: <a href="https://velog.io/@giyoul/1%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">AI한테 해커톤을 시켜봤다 1탄</a>, <a href="https://velog.io/@giyoul/2%ED%83%84-AI%ED%95%9C%ED%85%8C-%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%84-%EC%8B%9C%EC%BC%9C%EB%B4%A4%EB%8B%A4-%EC%82%BC%EC%84%B1-SCPC-2026-AI-Challenge-DACON">2탄</a>, 에세이: <a href="https://velog.io/@giyoul/%ED%95%98%EB%84%A4%EC%8A%A4%EB%8A%94-%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80-%EC%8C%93%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94%EA%B0%80">하네스는 어디까지 쌓아야 하는가</a></sub>
 
 ## 📚 워크플로우
 
 | 프로젝트 | 설명 |
 |---|---|
-| [**skills**](https://github.com/oh-my-younggi-ai/skills) | Claude Code 스킬 모음 — product-planning, scenario-dev, iterative-refactor, design-doc, bmad-quick-dev, blog-voice |
-| [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 규칙·컨벤션 + 커스텀 서브에이전트 6개 + Claude Code 설정 템플릿 |
+| [**skills**](https://github.com/oh-my-younggi-ai/skills) | Claude Code, Codex 공용 스킬 모음 - product-planning, scenario-dev, iterative-refactor, design-doc, bmad-quick-dev, blog-voice |
+| [**dotfiles**](https://github.com/oh-my-younggi-ai/dotfiles) | 도구 중립 규칙, 컨벤션 + 커스텀 서브에이전트 6개 + Claude, Codex 어댑터와 설치 스크립트 |
 
 ## 🌙 개선 이력
 
 | 스킬 | 회차 | 측정 결과 |
 |---|---|---|
-| product-planning | iter-01 (2026-07) | 결정론 채점 — floor **18/18 green** · 빈 상태 커버리지 **0.32 → 0.78** · Phase 도메인 근거율 **0 → 1.00** · 미해결 표기 0.67 → **0건** · 1.63× tokens |
-| cs-wiki | iter-02 (2026-07) | 결정론 채점 v2 — 회귀 검사 **16/16 green** · 점검 recall **1.00** (3/3) · 갭 추천 정밀도 **1.00** · 대필 0건 |
-| cs-wiki | iter-01 (2026-06) | pass rate **1.00** (15/15) vs baseline 0.53 · **Δ +0.47** · 1.46× tokens |
-| scenario-dev | iter-01 (2026-06) | pass rate **1.00** (20/20) vs baseline 0.50 · **Δ +0.50** · 1.65× tokens |
+| product-planning | iter-01 (2026-07) | 결정론 채점 - floor **18/18 green**, 빈 상태 커버리지 **0.32 → 0.78**, Phase 도메인 근거율 **0 → 1.00**, 미해결 표기 0.67 → **0건**, 1.63× tokens |
+| cs-wiki | iter-02 (2026-07) | 결정론 채점 v2 - 회귀 검사 **16/16 green**, 점검 recall **1.00** (3/3), 갭 추천 정밀도 **1.00**, 대필 0건 |
+| cs-wiki | iter-01 (2026-06) | pass rate **1.00** (15/15) vs baseline 0.53, **Δ +0.47**, 1.46× tokens |
+| scenario-dev | iter-01 (2026-06) | pass rate **1.00** (20/20) vs baseline 0.50, **Δ +0.50**, 1.65× tokens |
 
-실제 운영 지식베이스도 같은 도구로 측정한다 — 위키 건강검진에서 역링크 완전성 **0.70 → 0.91**,
+실제 운영 지식베이스도 같은 도구로 측정한다 - 위키 건강검진에서 역링크 완전성 **0.70 → 0.91**,
 고아 페이지 **12% → 0%** (측정 → 수정 → 재측정 루프).
 
 <sub>iter-02 부터 LLM judge 없는 <b>결정론적 3층 채점</b>(회귀 바닥 / 진행 지표 / 확장 eval)으로 전환.
